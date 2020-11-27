@@ -1,0 +1,41 @@
+[sa-list-direction="row"] {
+  flex-direction: row;
+}
+
+[sa-list-direction="column"] {
+  flex-direction: column;
+}
+
+[sa-box-elevated="true"] {
+  box-shadow: 0 0 24px #eee;
+}
+
+[sa-box-elevated="false"] {
+  box-shadow: none;
+}
+
+[sa-theme="white"] {
+  background-color: white;
+}
+
+[sa-theme="snow"] {
+  background-color: var(--colors-snow);
+}
+
+[sa-theme="liquid"] {
+  color: white;
+  background-color: var(--colors-dark-violet);
+  background-image: url('/images/bg-boost-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+[sa-flex="column-start"] {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+[sa-flex="center"] {
+  align-items: center;
+  justify-content: center;
+}
